@@ -1,11 +1,11 @@
-import { Fragment } from "react"
+import Layout from "../components/Layout"
 import Cabecalho from "../components/Cabecalho"
 
 export default function Exemplo() {
     return (
-        <Fragment>
+        <Layout titulo="Usando Componentes">
             <Cabecalho titulo="Next.js & React"/>
-            <Cabecalho titulo="Aprende Next na prática"/>
-        </Fragment>
+            <Cabecalho titulo="Aprendendo Next na prática"/>
+        </Layout>
     )
 }
