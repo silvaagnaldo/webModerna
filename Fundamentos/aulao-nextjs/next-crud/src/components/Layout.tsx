@@ -13,7 +13,7 @@ export default function Layout(props: LayoutProps) {
         `}>
             <Titulo>{props.titulo}</Titulo>
             <div className="p-6">
-                {props.titulo}
+                {props.children}
             </div>
         </div>
     )
